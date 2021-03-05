@@ -1,0 +1,69 @@
+/* importing fonts */
+@import url(../css/fonts.css);
+
+/* css variables */
+@import url(./partials/variables.css);
+/* global css */
+@import url(./partials/_global.css);
+/* navigation */
+
+.mylogo{
+    padding: 0 2rem 0 5rem;
+}
+.navbar{
+    padding:1rem 20rem;
+}
+.nav-link{
+    font:normal 500 15px/2px var(--roboto);
+    color: var(--title-color);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    
+
+}
+#major {
+    
+   background: var(--gradient-color);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+.nav-link:hover{
+    background: var(--gradient-color);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+/* navigation ends */
+
+/* banner area */
+.site-banner{
+    background: url(../images/banner/home-banner.png) no-repeat 0% 50%;
+
+}
+h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+h3::after{
+    content:"";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+
+}
+h1{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+.banner-image>img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+ 
+/* end banner area  */
