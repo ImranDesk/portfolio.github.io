@@ -36,7 +36,7 @@
 
 /* banner area */
 .site-banner{
-    background: url(../images/banner/home-banner.png) no-repeat 0% 50%;
+    background: url(../images/banner/) no-repeat 0% 50%;
 
 }
 .hd{
@@ -64,7 +64,7 @@ h1{
 h4{
     font-size: 1.5rem;
 }
-.banner-image>img{
+.banner-image>{
     padding: 7rem 0;
     width: 90rem;
 }

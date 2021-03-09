@@ -12,9 +12,10 @@ html,body{
     --title-color:#141313;
     --text-color:#777777;
     --border-color:#201f1f17;
-    --gradient-color:linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --gradient-color:linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     --shadow-color:0px 10px 30px rgba(57,56,61,0.205);
 
     /* font family variables */
     --roboto:'Roboto';
 }
+
