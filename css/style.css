@@ -6,10 +6,16 @@
 /* global css */
 @import url(./partials/_global.css);
 /* navigation */
-
+@import url(../fonts/Atmospheric-rg4aL.ttf);
 .mylogo{
     padding: 0 2rem 0 5rem;
+    font-family:cursive;
+    height: fit-content;
+    color: rgb(255, 111, 55);
+    
 }
+
+
 .navbar{
     padding:1rem 20rem;
 }
@@ -36,11 +42,19 @@
 
 /* banner area */
 .site-banner{
-    background: url(../images/banner/) no-repeat 0% 50%;
-
+ 
+    
 }
+.back{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
 .hd{
     font-family: "Roboto";
+    color: rgb(66, 66, 66);
 }
 h3{
     padding-top: 35%;
