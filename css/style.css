@@ -39,6 +39,9 @@
     background: url(../images/banner/home-banner.png) no-repeat 0% 50%;
 
 }
+.hd{
+    font-family: "Roboto";
+}
 h3{
     padding-top: 35%;
     font-weight: 500;
@@ -66,4 +69,5 @@ h4{
     width: 90rem;
 }
  
+
 /* end banner area  */
