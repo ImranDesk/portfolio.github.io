@@ -3,10 +3,12 @@
 
 /* css variables */
 @import url(./partials/variables.css);
-/* global css */
-@import url(./partials/_global.css);
 /* navigation */
 @import url(../fonts/Atmospheric-rg4aL.ttf);
+
+@import url(./partials/_global.css);
+
+
 .mylogo{
     padding: 0 2rem 0 5rem;
     font-family:cursive;
