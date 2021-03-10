@@ -16,8 +16,10 @@
 }
 
 
+
 .navbar{
     padding:1rem 20rem;
+    
 }
 .nav-link{
     font:normal 500 15px/2px var(--roboto);
@@ -42,6 +44,7 @@
 
 /* banner area */
 .site-banner{
+    background: url(#) no-repeat;
  
     
 }
